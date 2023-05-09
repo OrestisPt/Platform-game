@@ -1,31 +1,11 @@
-![run-tests](../../workflows/run-tests/badge.svg)
+To play the game you need to be on Linux environment.
+If you are using WSL2, download VcXrxv (https://sourceforge.net/projects/vcxsrv/) and update your .bashrc file with the following lines:
+```
+export DISPLAY=$(ip route list default | awk '{print $3}'):0
+export LIBGL_ALWAYS_INDIRECT=1
+```
+Then, run the following commands in programs/game directory:
 
-## 2023 Project 1
+``make run`` if you want to run the game wih a Vector based data structure (slower when platforms increase)
 
-Εκφώνηση: https://k08.chatzi.org/projects/project1/
-
-
-### Προσωπικά στοιχεία
-
-__Όνομα__: Ορέστη Πέτο
-
-__Α.Μ.__: sdi2100153
-
-### Ασκήσεις που παραδίδονται
-
-Συμπληρώστε εδώ τις ασκήσεις (και τυχόν bonus) που παραδίδετε. Αν κάποια άσκηση
-βρίσκεται σε μη αναμενόμενα αρχεία αναφέρετε και τα αρχεία αυτά.
-
-- Άσκηση 1
-- Άσκηση 2
-- Άσκηση 3
-- Άσκηση 4
-- Άσκηση 5
-- Άσκηση 6
-
-### Documentation
-
-Συμπληρώστε εδώ __όσο documentation χρειάζεται__ ώστε οι βαθμολογητές να
-κατανοήσουν πλήρως τις λύσεις σας και να τις βαθμολογήσουν ανάλογα. Αυτό θα
-πρέπει να γίνει ανεξάρτητα με το αν ο κώδικάς σας είναι καλά σχολιασμένος,
-πράγμα που συνιστάται.
+``make run_-alt`` if you want to run the game wih a Set based data structure.
