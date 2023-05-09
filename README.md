@@ -1,5 +1,5 @@
 To play the game you need to be on Linux environment.
-If you are using WSL2, download VcXrxv (https://sourceforge.net/projects/vcxsrv/) and update your .bashrc file with the following lines:
+If you are using WSL2, download VcXsrv (https://sourceforge.net/projects/vcxsrv/) and update your .bashrc file with the following lines:
 ```
 export DISPLAY=$(ip route list default | awk '{print $3}'):0
 export LIBGL_ALWAYS_INDIRECT=1
