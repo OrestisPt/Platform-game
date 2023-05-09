@@ -4,6 +4,7 @@ If you are using WSL2, download VcXsrv (https://sourceforge.net/projects/vcxsrv/
 export DISPLAY=$(ip route list default | awk '{print $3}'):0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
+To access the file type ``nano ~/.bashrc`` and paste the lines above at the end of the file. Then, save and exit.
 Then, run the following commands in programs/game directory:
 
 ``make run`` if you want to run the game wih a Vector based data structure (slower when platforms increase)
