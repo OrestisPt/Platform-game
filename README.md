@@ -8,4 +8,4 @@ Then, run the following commands in programs/game directory:
 
 ``make run`` if you want to run the game wih a Vector based data structure (slower when platforms increase)
 
-``make run_-alt`` if you want to run the game wih a Set based data structure.
+``make run-alt`` if you want to run the game wih a Set based data structure.
