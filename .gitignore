@@ -11,6 +11,9 @@
 !*.c
 !*.h
 !*.mk
+!*.a
+k08.a
+libraylib.a
 !Makefile
 !.gitignore
 !README.md
