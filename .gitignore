@@ -21,4 +21,5 @@ libraylib.a
 !*.png
 !*.jpg
 !*.mp3
-!*.wav
+!*.wav\
+!config.sh

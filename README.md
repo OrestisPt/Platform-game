@@ -10,3 +10,6 @@ Then, run the following commands in programs/game directory:
 ``make run`` if you want to run the game with a Vector based data structure (slower when platforms increase)
 
 ``make run-alt`` if you want to run the game with a Set based data structure.
+
+Note: You might need to run `bash config.sh` if some libraries are missing.
+
